@@ -1,0 +1,28 @@
+```c
+#include <iostream>
+
+int main() {
+  int n,sum;
+  scanf("%d",&n);
+  for(int i = 0; i < n;i++)
+    {
+      int temp;
+      scanf("%d",&temp); //띄어쓰기로 나눠서 입력 
+      sum += temp;
+      
+    }
+  sum = sum / n;
+  
+  if(sum >= 80) {
+    printf("easy");
+    }
+  else if(sum >= 60) {
+    printf("normal");
+    }
+  else {
+    printf("hard");
+    }
+
+}
+
+```
